@@ -1,6 +1,45 @@
-# LectureRAG-Assistant
+# 🚀 Semantic Lecture Assistant (RAG-Based QA System)
 
-A Retrieval-Augmented Generation (RAG) system that answers questions from lecture transcripts using embeddings and Large Language Models (LLMs) with context-aware responses.
+A context-aware AI assistant that answers questions from lecture transcripts using a Retrieval-Augmented Generation (RAG) pipeline.
+
+This project demonstrates a full end-to-end RAG system running **entirely locally**, combining semantic search with LLM-based reasoning.
+
+### 🔑 Key Highlights
+- Built a complete RAG pipeline from scratch
+- Uses **BGE-M3 embeddings** for semantic retrieval
+- Uses **Llama 3.2** for answer generation
+- Implements **cosine similarity** for context ranking
+- Fully local inference (no external APIs)
+
+> ⚡ Designed as a foundation for integrating AI assistants into real-world web applications
+
+## 💡 Why I Built This
+
+I built this project to understand how modern AI assistants work under the hood—especially how retrieval and generation can be combined to produce accurate, context-aware responses.
+
+As someone interested in full-stack development, I wanted to explore how LLMs can be integrated into web applications to build intelligent features like chat assistants and semantic search.
+
+This project is my first step toward building production-ready AI-powered applications.
+
+## 🔄 System Flow
+
+```
+[User Question]
+        ↓
+[Convert to Embedding]
+        ↓
+[Compare with Stored Chunk Embeddings]
+        ↓
+[Retrieve Top-K Relevant Chunks]
+        ↓
+[Construct Context]
+        ↓
+[Send to LLM]
+        ↓
+[Generate Final Answer]
+```
+
+This pipeline ensures responses are grounded in the provided data instead of relying on general knowledge.
 
 ## 📋 Overview
 
@@ -215,6 +254,14 @@ ollama pull llama3.2
 - Your system may not have enough RAM for both models
 - Consider using smaller model variants from Ollama's registry
 - Reduce the number of chunks used for context
+
+## 🚧 Future Improvements
+
+- Integrate with a web UI (React + Node.js)
+- Add streaming responses for better UX
+- Optimize retrieval using a vector database (FAISS / Pinecone)
+- Improve ranking with re-ranking models
+- Reduce latency with optimized inference
 
 ## 📚 Resources
 
