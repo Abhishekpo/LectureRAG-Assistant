@@ -1,0 +1,1388 @@
+WEBVTT
+
+00:00.000 --> 00:09.920
+testing testing. Okay. All right. Hello, everyone. Thank you for coming to the final
+
+00:09.920 --> 00:17.280
+recitation session of the semester. I'm Matt. I'm one of the CAs for the course course.
+
+00:17.280 --> 00:24.000
+And today we'll be talking about some practice problems for the final section of the course.
+
+00:24.000 --> 00:31.680
+So just first off, so you're aware. See, we're recording this for posting on Piazza later
+
+00:31.680 --> 00:38.080
+just so you know. So yeah, just recording notice. And overall, the point of today's session will
+
+00:38.080 --> 00:44.720
+be to go over some of the sample problems that were handed out or suggested by the professors
+
+00:44.720 --> 00:51.440
+in various sections throughout the various course lectures. So as a reminder, the final exam
+
+00:51.440 --> 00:56.320
+will focus on the material from section three. So it's not a overall comprehensive exam. It's
+
+00:56.320 --> 01:01.440
+just focused on final section of the course section three. The problems that we'll talk about
+
+01:01.440 --> 01:08.000
+today are all from the Russell and Norbig textbook. And they all come from the aimacode.github.io website
+
+01:08.000 --> 01:13.600
+that's been I think shared a couple times throughout the course. So overall, let's begin.
+
+01:14.400 --> 01:21.120
+We'll start with an easy problem as a warm up. The first question, this is 13.1. It says,
+
+01:21.200 --> 01:26.640
+show from first principles that the probability of A given B intersect A equals one.
+
+01:27.360 --> 01:32.000
+So does anyone have any ideas on how you would approach solving this?
+
+01:37.840 --> 01:42.720
+Okay. That's a definition of conditional probability. Yes, that's a great way to start.
+
+01:42.720 --> 01:49.920
+So to start using the definition of the conditional probability, probability of A given B intersect A
+
+01:49.920 --> 01:58.240
+would be probability of A intersect B intersect A divided by probability of B intersect A.
+
+01:58.960 --> 02:05.440
+And so this should be the part where it's very clear. What would this expression reduce to
+
+02:06.080 --> 02:14.320
+this one right here? Well, if you take A intersect B intersect A, this has already been intersected
+
+02:14.320 --> 02:20.480
+with A. So intersecting a second time will really do anything. So the result of that would still be
+
+02:21.120 --> 02:27.600
+equivalent to B intersect A. And so then if you just have probability of B intersect A over
+
+02:27.600 --> 02:33.840
+probability B intersect A, the answer will always be one, no matter what. Which of course intuitively
+
+02:33.840 --> 02:41.040
+makes sense. I mean, if you're conditioning on B intersect A, it means that it's a given that A
+
+02:41.040 --> 02:48.400
+is true. So the probability that A is true given that A is true should be one always. Okay,
+
+02:48.400 --> 02:53.920
+but that's just a warm up problem. Let's do some more counting oriented problems. So this is a
+
+02:54.800 --> 03:01.200
+a problem about poker. So it says consider the set of all possible five card poker hands dealt
+
+03:01.200 --> 03:07.440
+fairly from a standard deck of 52 cards. So when it says it's dealt fairly, that means all cards are
+
+03:07.440 --> 03:11.360
+perfectly shuffled. They're shuffled randomly. Yes. Yes.
+
+03:15.600 --> 03:18.800
+Oh, let's see. There's not really a whiteboard in here.
+
+03:23.120 --> 03:27.520
+Yeah, I mean, you could. I think I think they're writing it would be easier, but it's just a way
+
+03:27.520 --> 03:33.520
+to represent the idea. Yeah. Like you're saying, if you had A intersect B and you intersected it
+
+03:33.600 --> 03:38.400
+with A, it would be the same because you'd already be in A. But yeah, I see what you're saying.
+
+03:39.360 --> 03:46.880
+Yeah. Okay. So five card poker hands. How many atomic events are there in the joint
+
+03:46.880 --> 03:54.720
+probability distribution? How many five card hands are there? So if you recall combinatorics,
+
+03:54.720 --> 03:58.800
+counting any, any ideas, what the, yes, what?
+
+04:03.920 --> 04:10.000
+Lose, but when you have a poker hand, the ordering that you draw the cards and doesn't really matter
+
+04:11.280 --> 04:18.480
+or not times five factorial, but divided by five factorial, right? So it would be 52,
+
+04:18.480 --> 04:25.040
+choose five, which is exactly what you said, 52 times 51 times 50 times 49 times 48,
+
+04:25.040 --> 04:32.560
+divided by five factorial. Because intuitively, you start by having five choices and you choose
+
+04:32.560 --> 04:38.800
+your five cards, first having 52 choices, then 51 and 50, then 49 and 48. But then because the
+
+04:38.800 --> 04:42.480
+ordering that you draw them, it doesn't really matter. IE, your hand is equivalent,
+
+04:42.480 --> 04:46.880
+regardless of the order you draw them. That's why you would need to divide by five factorial,
+
+04:46.880 --> 04:52.240
+because that's the number of equivalent ways to draw the same hand. Now the second question,
+
+04:53.040 --> 04:58.000
+what is the probability of each atomic event of each hand? Well, it's pretty easy. It's just one
+
+04:58.000 --> 05:07.040
+divided by that number we just computed. So it's one over 2,598,960. Okay. So that's fairly simple.
+
+05:07.840 --> 05:13.200
+Next question, what is the probability of being dealt a royal straight flush? Well, again,
+
+05:13.200 --> 05:18.560
+this is a counting problem. So how many royal straight flushes exist? There's only four,
+
+05:18.560 --> 05:24.400
+one for each of the four suits. So you would have four over 2 million that number.
+
+05:25.840 --> 05:30.800
+And then the final question is how many ways can you get what's the probability of getting four of a
+
+05:30.800 --> 05:38.560
+kind? And so this one's a bit trickier to count. So there are 13 numbers or 13 types of cards from
+
+05:38.560 --> 05:45.040
+Ace to King. And so there would be 13 types of four of a kind that you could get. And then after
+
+05:45.040 --> 05:49.680
+you've drawn your four of a kind, you would still have one more card in your hand to draw. And there
+
+05:49.680 --> 05:57.680
+would be 48 possible options for the last card in your hand. So then you would have 13 types of
+
+05:57.680 --> 06:06.800
+four of a kind times 48. And that would give you, if you reduce it, one over 4,165 possible ways to
+
+06:06.800 --> 06:14.240
+do four of a kind. So yeah, these are all counting problems, you know, probability, a lot of the
+
+06:14.240 --> 06:19.840
+time boils down to counting the number of possible ways to do a thing and counting the number of
+
+06:20.720 --> 06:29.120
+overall options in the universe. So yeah, okay. Now, how about a question about coin flips? This
+
+06:29.120 --> 06:36.800
+is number 13.17. It says, suppose you are given a coin that lands heads with probability x and
+
+06:36.800 --> 06:43.440
+tails with probability 1 minus x. So it's not necessarily a balanced coin. It might be a biased
+
+06:43.440 --> 06:49.200
+coin that might be weighted one way or the other towards a certain side. And it says, are the outcomes
+
+06:49.200 --> 06:54.800
+of successive flips of the coin independent of each other given that you know the value of x?
+
+06:55.440 --> 06:59.520
+And then are the outcomes independent if you do not know the value of x?
+
+07:00.560 --> 07:06.160
+So what are people's thoughts on the first question? If you know the value of x would all of the
+
+07:06.160 --> 07:15.040
+coin flips be independent of each other? Yes, indeed, they would be independent of each other.
+
+07:15.040 --> 07:20.160
+But what do you think about the second one? If you don't know the value of x, are they independent
+
+07:20.160 --> 07:26.880
+of each other? They actually aren't independent of each other. Because as you flip the coin more
+
+07:26.880 --> 07:32.320
+times, you learn more about what the value of x might be. And so that changes your prediction of
+
+07:32.320 --> 07:39.440
+what future events are more likely to be. So overall, for the case where you know x, it's very
+
+07:39.440 --> 07:44.960
+easy to calculate that they're independent. This is just the formula for independence, probably
+
+07:44.960 --> 07:51.920
+of f1 equals heads, probably. And the joint of f1 being heads and f2 being heads given x is just
+
+07:51.920 --> 07:58.320
+x times x, which is also equal to the probability of f1 equals heads given x times probably f2 equals
+
+07:58.320 --> 08:04.080
+heads given x. So since these two things are equal, the joint distribution is the product of the
+
+08:04.080 --> 08:09.760
+marginal distributions, that means the two are independent. But in the case of when x is not known,
+
+08:09.760 --> 08:16.240
+it's basically like successive flips, you update your belief of what x's value is. And so they're
+
+08:16.240 --> 08:22.000
+no longer independent of each other. So yeah. All right. It's a tricky question, for sure.
+
+08:23.120 --> 08:30.800
+All right. So going from one coin to a bag of coins, this is question 14.1, say we have a bag of
+
+08:30.800 --> 08:38.640
+three biased coins, a, b and c, with probabilities of coming up heads 20%, 60%, and 80% respectively.
+
+08:39.520 --> 08:43.920
+One coin is drawn randomly from the bag with equal likelihood of drawing each of the three coins,
+
+08:43.920 --> 08:48.960
+and then the coin is flipped three times to generate three outcomes, call them x1, x2, x3.
+
+08:49.760 --> 08:54.400
+Question one is draw the Bayesian network corresponding to this setup and define the necessary
+
+08:54.400 --> 08:59.680
+conditional probability tables. Then question two, calculate which coin was most likely to have been
+
+08:59.680 --> 09:06.240
+drawn from the bag if the observed flips come out heads twice and tails once. So first off, can anyone
+
+09:06.240 --> 09:09.840
+say what the describe what the Bayesian network for this would look like?
+
+09:14.960 --> 09:19.040
+It looks like you do three, or you do four different things in this process.
+
+09:19.040 --> 09:25.040
+You first you pick a coin, you draw a coin from a bag, and then you do three random coin flips.
+
+09:25.040 --> 09:31.040
+So you'll have a network with four things on it. And I think here I'll show you. It would look
+
+09:31.120 --> 09:37.440
+like this. Your first action would be drawing the coin. And so the coin has the random probabilities
+
+09:37.440 --> 09:41.680
+here where there are the three possible coins you can draw each with probability one-third.
+
+09:42.800 --> 09:49.840
+And then you have the three separate coin flips that are given the coin that you drew,
+
+09:49.840 --> 09:54.960
+the conditional probability of getting heads on each of these coin flips depends on the coin
+
+09:55.040 --> 10:01.360
+that you drew from the bag. So if you had coin A, that said 20% heads, coin B is 60% heads,
+
+10:01.360 --> 10:07.920
+coin C is 80% heads. So then you have the three coin flips, X1, X2, X3. And this is how you could, yes.
+
+10:15.520 --> 10:20.880
+So it's just a way of representing your random variables and how they interact with each other.
+
+10:20.880 --> 10:31.360
+So this is just just a representation of that. Yeah, the variables could be, however you,
+
+10:31.360 --> 10:36.080
+they could be continuous variables. They could be not even discrete. They could be like
+
+10:36.960 --> 10:42.160
+Gaussian distribution. And then you could have the downstream variables could be dependent on
+
+10:42.160 --> 10:48.480
+whatever value that that continuous value has. And you could have variables that are conditioned on
+
+10:48.480 --> 10:53.360
+continuous values as opposed to being conditioned on discrete values. In this case, they're all discrete
+
+10:53.360 --> 11:02.480
+examples though. So yeah. Okay, so then the second question says calculate which coin was most
+
+11:02.480 --> 11:08.560
+likely to have been drawn from the bag if the observed flips come up heads twice and tails once.
+
+11:09.200 --> 11:13.440
+Just as a guess, does anyone want to guess which coin is probably the most likely?
+
+11:14.320 --> 11:29.440
+Yeah, C says probability 80%. So personally, I would think it might be B because B is 60%
+
+11:30.160 --> 11:38.720
+and it came up 66.66666 of the time it came up with heads. So that would make it me think that
+
+11:38.720 --> 11:44.640
+B is probably the most likely one. But we can test that mathematically. So overall,
+
+11:46.560 --> 11:50.640
+so does anyone have a guess on what would be a good way to test this mathematically?
+
+11:53.120 --> 12:00.880
+Well, wind and doubt, Bayes rule is usually a good thing to go with. So we want to calculate
+
+12:00.880 --> 12:06.640
+essentially given two heads in one tail. We want to know what is the probability distribution of
+
+12:06.640 --> 12:13.200
+the three coins or what's the likelihood of the three coins given that observation. So we can
+
+12:13.200 --> 12:20.480
+instead rephrase this as find C with the greatest posterior probability. So probability of C given
+
+12:20.480 --> 12:28.000
+two heads one tail. And so now we have probability of C given two heads one tail. Using Bayes rule,
+
+12:28.000 --> 12:33.600
+we can invert that and we say through Bayes rule, probability of C given two heads one tail equals
+
+12:33.600 --> 12:39.760
+probability two heads one tail given C times probability of C divided by probability of two heads
+
+12:39.760 --> 12:44.880
+in one tail. But now at this point, we can actually start making things easier because we don't
+
+12:44.880 --> 12:50.000
+actually care exactly what the right probability is. We only were asked to determine which coin was
+
+12:50.000 --> 12:56.720
+the most likely. So for one thing, this term probably two heads one tail. That's the overall
+
+12:56.720 --> 13:02.320
+probability. It's not conditioned on the coin. And so that's a constant. And that's a constant we can
+
+13:02.320 --> 13:09.200
+just essentially factor out and now say that probably of C given two heads one tail is proportional
+
+13:09.200 --> 13:16.240
+to probability two heads one tails given C times probability of C. And again, probability of C was
+
+13:16.240 --> 13:20.560
+one third for all three coins because we said that they were all equally likely. So that's another
+
+13:20.560 --> 13:26.080
+term that we can just factor out. So overall, we can say that the probability of C given two heads
+
+13:26.080 --> 13:32.320
+one tail is actually proportional to the probability of two heads one tail given C. So now we just
+
+13:32.320 --> 13:37.440
+have to find which coin gives the highest value for that term and that will tell us which coin was
+
+13:37.440 --> 13:44.240
+the most likely one. So this is something we can compute directly. So probably x1 equals tails,
+
+13:44.240 --> 13:51.120
+x2 equals heads, x3 equals heads given coin A. Well, those three flips are independent of each other.
+
+13:51.120 --> 13:59.520
+So we can separate this into the three subterms multiplicatively. And then we know from our
+
+13:59.520 --> 14:07.200
+tables that for A, it's a 20% chance of being heads and an 80% chance of being tails. So we would
+
+14:07.200 --> 14:16.960
+have 0.8 times 0.2 times 0.2. So 0.032. So this does not tell us the exact probability of C given
+
+14:16.960 --> 14:21.600
+two heads two tails. But we know that it's proportional to this number. And then we can do the
+
+14:21.600 --> 14:29.280
+same thing and compute that for the other two coins. So for coin B, we get 0.432. And for coin C,
+
+14:29.280 --> 14:38.000
+we get 0.384. So from this, we can see that given we got two heads one tail, the least likely coin
+
+14:38.000 --> 14:44.560
+is A by a significant margin. And then the other two coins are a lot closer to each other. So coin C
+
+14:44.560 --> 14:53.120
+is fairly close. But with a 0.384 versus 0.432, this shows that the second coin, coin B,
+
+14:53.120 --> 14:57.360
+is the one that was most likely to have generated the sequence of flips that we observed.
+
+14:58.560 --> 15:02.400
+So does this make sense? Do you guys have any questions on this?
+
+15:02.400 --> 15:14.800
+Okay, then we can move along. All right, then we'll do another problem with Bayesian networks.
+
+15:15.680 --> 15:25.680
+This is problem 14.5, the museum alarm problem. So it says consider the Bayesian burglary network
+
+15:26.400 --> 15:31.840
+where the museum alarm can be activated by a burglar or by an earthquake. And so they give you
+
+15:31.840 --> 15:38.960
+this network that shows the conditional distribution of all these variables. So there's a small
+
+15:38.960 --> 15:46.720
+likelihood 0.001 that a burglary might happen at this museum. And there's a 0.002 chance
+
+15:47.680 --> 15:52.480
+that there might be an earthquake at this museum. And then both of those variables could
+
+15:52.480 --> 15:58.320
+influence the likelihood of an alarm being triggered. So there's a 95% chance of the alarm
+
+15:58.320 --> 16:09.040
+triggering if both events occur. A 94% chance if only the burglar happens. And a 0.99% chance
+
+16:09.040 --> 16:15.040
+if a earthquake happens and a small 0.001% chance of a false alarm if neither of these events
+
+16:15.040 --> 16:19.760
+are occurring. And then beyond that, there are two additional variables. Say there are two
+
+16:19.760 --> 16:25.440
+night guards at the museum. One named John and one named Mary and each of them may call the police
+
+16:25.440 --> 16:33.680
+if they hear the alarm go off. So given this Bayesian network, we have a couple questions we want
+
+16:33.680 --> 16:40.000
+to look at. First one, if no evidence is observed, are burglary and earthquake independent?
+
+16:40.000 --> 16:47.120
+Prove this from the numerical semantics and from the topological semantics. So looking at the
+
+16:47.120 --> 16:54.160
+network, can we conclude that if we have no observations that burglary and earthquake are
+
+16:54.160 --> 16:59.840
+independent of each other? Anyone want to guess?
+
+17:06.400 --> 17:11.840
+Yes. Yes. They are definitely independent of each other. So we can see that they're not
+
+17:11.840 --> 17:17.680
+conditioned on each other. They don't have a shared parent. So they are definitely independent
+
+17:17.680 --> 17:24.720
+of each other from the topology of the graph. We can see that. But we can also prove this numerically.
+
+17:24.720 --> 17:30.160
+So from the numerical semantics, if you were going to break this down and write out the
+
+17:30.160 --> 17:36.880
+probabilities for everything, the probability, the joint probability of the burglary and the
+
+17:36.880 --> 17:42.320
+earthquake, that could be equal to the joint probability of everything put together,
+
+17:42.320 --> 17:47.600
+summed over all of the other variables that we don't care about. So the alarm, John and Mary
+
+17:47.600 --> 17:54.400
+calls you sum over a, j and m, all of the options for those variables. And then, well, that joint
+
+17:54.400 --> 17:59.840
+distribution, we can decompose it based on what we know about the conditional probabilities. So
+
+17:59.840 --> 18:05.040
+the probability of b just becomes b by itself because it's not conditioned on anything else.
+
+18:05.040 --> 18:10.480
+And it's the same thing goes for e. And then the probability of a is conditioned on b and e.
+
+18:10.480 --> 18:16.240
+And then j is conditioned on a. And so is m, conditioned on a. And then moreover,
+
+18:16.960 --> 18:22.640
+now that we have this broken out, these terms right here, these two have no dependence on a,
+
+18:22.640 --> 18:28.400
+j and m. So they can pop out to the front outside of the summation. So then that leaves us these terms
+
+18:28.400 --> 18:34.800
+on the inside. And then we can break these down further since this term doesn't depend on j.
+
+18:34.800 --> 18:40.880
+And this term only depends on j. And this one depends on m. So you'd have the summation of j
+
+18:41.760 --> 18:47.840
+over the options for j of j given a, the alarm status, and summation of m over m given a.
+
+18:48.400 --> 18:53.760
+And thankfully, fortunately, due to the properties of probability distributions,
+
+18:54.480 --> 18:59.040
+all of this, this will just sum to one because when you sum over all the options for
+
+18:59.040 --> 19:03.760
+probability distribution, it will always sum to one. So this term will just go away.
+
+19:03.760 --> 19:09.200
+This term will just go away. And then this term here will also just go away because it will
+
+19:09.200 --> 19:14.160
+also be summing over a probability distribution that just sums to one. So in the end,
+
+19:14.160 --> 19:19.600
+all of those things will just factor out. And you'll be left with the probability of b comma e
+
+19:19.600 --> 19:24.720
+is equal to the probability of b times the probability of e, which again, this is the definition of
+
+19:24.720 --> 19:30.160
+independence of variables. So right there, we've shown that numerically, you can show that they're
+
+19:30.160 --> 19:34.880
+independent of each other, given the, using the sum going constraint for distribution,
+
+19:35.360 --> 19:39.280
+yeah, okay, top. And topologically, e is independent of its non-descendants,
+
+19:40.160 --> 19:44.960
+eb, given its parents, which is the empty set. So b and e are absolutely independent.
+
+19:45.600 --> 19:51.440
+Okay, so now the second question. And this, I think, is a fairly important one to think about
+
+19:52.800 --> 19:58.480
+with the Bayesian networks. If we observe that the alarm is true, our burglary and earthquake
+
+19:58.480 --> 20:03.360
+independent. Justify your answer by calculating whether the probabilities involved
+
+20:03.360 --> 20:09.760
+satisfy the definition of conditional independence. So thinking back to the lectures on
+
+20:10.720 --> 20:17.120
+Bayesian networks, once you have observed that the alarm is true, our burglary and earthquake
+
+20:17.120 --> 20:22.400
+still independent. Yes, you got it. They're not in, they are no longer independent.
+
+20:23.440 --> 20:28.720
+The fact that you've observed the alarm now kind of links these two parent variables together
+
+20:28.720 --> 20:34.640
+and they're now dependent on each other. So, and we can even show that mathematically by
+
+20:34.640 --> 20:40.800
+breaking down all of the math. I mean, it's a lot of math to break down by hand, but you know,
+
+20:40.800 --> 20:43.680
+what you would want to show, if you were going to show that they were independent,
+
+20:43.680 --> 20:50.240
+you would want to show that probability of b comma e given a is equal to probability of b given a
+
+20:50.240 --> 20:54.800
+times probability of e given a. This would be true if they're independent, but we'll see that
+
+20:54.880 --> 21:01.840
+they're not, but we can compute the left side probability of e given a. We can use Bayes rule again
+
+21:01.840 --> 21:07.680
+to reverse this and we'll have a normalizing term alpha that again has all of these values,
+
+21:07.680 --> 21:11.840
+and you can, you can do all the math here and break it down and you can compute all of this,
+
+21:11.840 --> 21:17.200
+but in the end, what you get at the end is that the left side probability of b comma e given a
+
+21:17.200 --> 21:21.600
+would be this value, and then the product of these two sides would give you a completely
+
+21:21.600 --> 21:27.600
+different value, and therefore, this shows that b and e are not conditionally independent given a.
+
+21:28.240 --> 21:40.800
+So, does that make sense to everyone? Cool. All right. Okay, then let's move on from chapter 14
+
+21:40.800 --> 21:49.920
+and go to chapter 16. This is problem 16.6, which is about the surprise candy company,
+
+21:50.560 --> 21:54.320
+and they say the surprise candy company makes candy in two flavors.
+
+21:55.360 --> 22:02.800
+75% are strawberry flavor and 25% are anchovy flavor. Each new piece of candy starts out with a
+
+22:02.800 --> 22:08.320
+round shape, and as it moves along the product line, machine randomly selects a certain
+
+22:08.320 --> 22:15.520
+percentage to be trimmed into a square, then each piece is wrapped in a paper wrapper, or sorry,
+
+22:15.520 --> 22:21.520
+in a wrapper whose color is chosen randomly either red or brown. 70% of the strawberry candies are
+
+22:21.520 --> 22:28.320
+round and 70% have red wrappers, while 90% of the anchovy candies are square and 90% have brown
+
+22:28.320 --> 22:34.560
+wrappers. All candies are sold individually in sealed identical black boxes, where you can't,
+
+22:34.560 --> 22:40.080
+you basically, when the box is sealed, you can't see the wrapper, you can't see the candy shape,
+
+22:40.080 --> 22:45.200
+and so the idea is that, you know, when you open the box, that will give you more information about
+
+22:45.200 --> 22:49.680
+what the candy might be, but you wouldn't know exactly what the flavor is until you actually eat it.
+
+22:50.560 --> 22:55.120
+But now it says, now you the customer have just bought a surprise candy at the store,
+
+22:55.120 --> 23:02.000
+but have not opened the box yet. So to start with, they ask, given these three networks,
+
+23:02.000 --> 23:07.840
+these three Bayesian networks, which networks can correctly represent the probability distribution,
+
+23:07.840 --> 23:14.960
+the joint probability distribution of the flavor wrapper in the shape. Which of these would you
+
+23:14.960 --> 23:19.040
+oh yeah, and then oh sorry, second question, which is the best representation for this problem?
+
+23:19.680 --> 23:26.160
+So intuitively, what anyone have any preference or inclination between these?
+
+23:31.680 --> 23:39.680
+Okay, well, going off of the story, it said that they said they made in strawberry or anchovy flavor,
+
+23:39.760 --> 23:45.920
+and then later they say strawberry candies have a certain probability distribution based on
+
+23:47.520 --> 23:58.080
+70% round, 70% red, 90% square, 90% brown. So intuitively, the third option is the one that most
+
+23:58.080 --> 24:04.560
+closely matches the story. However, the second option, number two, because it's a fully connected
+
+24:04.560 --> 24:11.280
+network, technically you could use it to represent any problem, like just any problem. You could
+
+24:11.280 --> 24:17.520
+rearrange the variables in some way that you could fit it to work with that network. However,
+
+24:17.520 --> 24:22.880
+the third one, it matches the story better, so it's probably the best one to work with in this
+
+24:22.880 --> 24:29.760
+context. And then finally, the first one actually can't represent the problem, because its structure
+
+24:29.760 --> 24:35.520
+implies that the wrapper color and shape are marginally independent, which is not true. So in other
+
+24:35.520 --> 24:41.120
+words, number one, doesn't work, number two, could work, but it's probably suboptimal, and number
+
+24:41.120 --> 24:46.720
+three is probably the best one given the arrangement of variables that we've talked about in the
+
+24:46.720 --> 24:55.840
+story so far. Yes. Number two said it fits it fully connected. Yes. Yeah, so I mean, because of
+
+24:55.840 --> 25:02.800
+a base rule, you could always invert the probabilities, right? So if one thing is certain distribution
+
+25:02.800 --> 25:07.600
+based on another thing, you could invert it and have it be the other way. So technically, you could,
+
+25:07.600 --> 25:12.640
+even though we talked about flavor first, you could think of it as being in the opposite order
+
+25:12.640 --> 25:18.800
+if you wanted to. But in this case, it'll be easiest if we do number three, because it'll be closer
+
+25:18.800 --> 25:26.720
+to the original story. Okay. So then they said number three does network one assert that
+
+25:26.720 --> 25:31.680
+probability of wrapper given shape, people's probably wrapper i.e. probably wrapper does not depend
+
+25:31.680 --> 25:38.080
+on shape. Yes, it implies that from the structure of the graph, which is again, not true. We know
+
+25:38.080 --> 25:44.240
+it's not true. So it doesn't work for this problem. And then the next question says, what is the
+
+25:44.240 --> 25:49.600
+probability that your candy has a red wrapper? Okay. So this is a fairly easy problem to answer.
+
+25:49.600 --> 25:55.360
+You just have to break it down into its subparts. So once we know the flavor, we know the probability
+
+25:55.360 --> 26:01.280
+that's wrapper will be rather brown. So we can just marginalize the flavor out i.e. some over
+
+26:01.920 --> 26:07.520
+the flavor options is what they mean by that. So the probably that the wrapper is red would be equal
+
+26:07.520 --> 26:14.000
+to summing over all options of f. The probability that the wrapper is red and the flavor is f. So then
+
+26:14.000 --> 26:18.960
+you could do the conditional probability from the joint. So this would be the probability that the
+
+26:18.960 --> 26:25.280
+flavor is f times the probability that the wrapper is red given that the flavor is f. And from the
+
+26:25.280 --> 26:35.040
+problem, we know that they said what they said 75% are strawberry and 70% of strawberry are red and
+
+26:35.040 --> 26:43.920
+25% are anchovy and they said 10% or 90% of anchovier browns, so 10% would be red. So overall
+
+26:44.160 --> 26:54.240
+you would have 75 times 0.7 plus 0.25 times 0.1 and so it would come out to 0.55. It would be the
+
+26:54.240 --> 27:05.280
+overall chance of having a red wrapper. Okay. All right, so next question. This one I think is a
+
+27:05.280 --> 27:12.240
+little bit harder. In the box, so suppose you open the box and now you observe that you have a
+
+27:12.240 --> 27:18.960
+round candy with a red wrapper. Now what is the probability that it is a strawberry flavored candy?
+
+27:20.160 --> 27:26.480
+So this one is now going from the initial problem where we had no information and about what the
+
+27:26.480 --> 27:31.600
+candy looked like. And now we've opened the box and we get to update our information and that
+
+27:31.600 --> 27:39.200
+gives us some additional clues about what we think are our probability of the candy is. So to start,
+
+27:39.200 --> 27:44.400
+we could compute the two joint distributions for the two flavors or the joint probabilities for
+
+27:44.400 --> 27:49.680
+the two flavors. So we get to start by saying the probability that the flavor equals strawberry
+
+27:49.680 --> 27:54.240
+and the shape is round and the wrapper is red. Well, that would be the probability that the flavor
+
+27:54.240 --> 27:58.880
+is strawberry times the probability the shape is round given the flavor is strawberry and the
+
+27:58.880 --> 28:04.560
+probability that the wrapper is red given the flavor is strawberry. And all three of these are terms
+
+28:04.720 --> 28:12.560
+that we have from the original story. So this is very easy to compute. So we had 0.75, 0.7, 0.7. We
+
+28:12.560 --> 28:17.840
+get 0.3675. And it's very easy to compute this with the numbers that we had from the original
+
+28:17.840 --> 28:24.240
+story. And then in addition to that, we would need to compute the probability that the flavor is
+
+28:24.240 --> 28:30.080
+anchovy and the shape is round and the wrapper is red. So again, same thing except we swap out this
+
+28:30.080 --> 28:35.200
+one term. And again, these are numbers basically more or less that we have from the original story.
+
+28:35.200 --> 28:43.440
+So you'd have 0.25 times 0.1 times 0.1, so 0.2, 0.0025. So obviously, one thing to point out here
+
+28:43.440 --> 28:53.760
+is that this number and this number, when you add them together, they don't sum to one. So why is that?
+
+29:00.320 --> 29:09.600
+Exactly. That's exactly right. This is only looking at two options. The joint options of
+
+29:09.600 --> 29:14.480
+flavors strawberry and these things and flavors anchovy and these things. So these are not the
+
+29:14.480 --> 29:20.560
+conditional probabilities. These are the overall joint probabilities. But if we wanted to then get
+
+29:20.560 --> 29:26.560
+from these numbers to the actual conditional probability numbers, where we would want to know
+
+29:26.560 --> 29:32.720
+what's the probability flavor equals strawberry given shape is round, wrapper is red, what would we
+
+29:32.720 --> 29:44.080
+have to do? All you have to do is normalize. So all you have to do is normalize. These are the
+
+29:44.080 --> 29:51.360
+two options basically. Either the shape is strawberry or anchovy. We know that the other things
+
+29:51.440 --> 29:56.640
+the wrapper is red and the shape is red. So all you have to do is add these two numbers together.
+
+29:56.640 --> 30:05.520
+So that would give you 0.37 and that becomes your normalization term. So if you then divide 0.3675
+
+30:05.520 --> 30:14.400
+divided by 0.37, then you've normalized and then you have your conditional probability distribution
+
+30:14.400 --> 30:19.440
+which tells you that the probability that your flavor is strawberry given the shape is round
+
+30:19.440 --> 30:28.720
+and the wrapper is red is actually 0.9932. So very high probability of having a strawberry candy
+
+30:28.720 --> 30:36.880
+at this point. Although if you think originally all we knew was that 75% of candies were strawberry.
+
+30:36.880 --> 30:42.240
+But now that we've observed the candy and we've seen the wrapper, we can now update our prior
+
+30:42.560 --> 30:48.720
+posterior to know that there's a 99% chance above a 99% chance that it's strawberry.
+
+30:49.920 --> 30:56.480
+So I think there's one more question here. Okay and this last one says an unwrapped strawberry
+
+30:56.480 --> 31:03.040
+candy is worth S dollars on the open market and an unwrapped anchovy candy is worth A dollars.
+
+31:03.040 --> 31:10.160
+Write an expression for the value of an unopened candy box. Does anyone have any inclination on this?
+
+31:13.040 --> 31:18.560
+Just one, just one. It's an individually boxed candy.
+
+31:23.440 --> 31:30.400
+Yep, yep. So at first it might seem like this is a harder question to answer but actually because
+
+31:30.400 --> 31:35.200
+you don't know anything, you only know the box. You haven't opened it. All you have to go off of
+
+31:35.200 --> 31:44.720
+is 0.75 or strawberry and 0.25 or anchovy. And so you just multiply those by the values to get
+
+31:44.720 --> 31:56.880
+the overall expected value of the candy. All right. Okay, let's see. All right, moving on to section
+
+31:56.880 --> 32:05.600
+17, 17.19 rock paper scissors, fire water. This says given in the children's game, rock paper
+
+32:05.600 --> 32:11.840
+scissors, each player reveals at the same time a choice, rock paper or scissors, paper beats rock,
+
+32:11.840 --> 32:17.280
+rock beats scissors, scissors beats paper. Now we'll propose an extended version where we add two
+
+32:17.280 --> 32:23.680
+more options, fire and water, fire beats rock paper and scissors, rock paper and scissors,
+
+32:23.680 --> 32:31.680
+beat water and water beats fire. So write out the payoff matrix and find a mixed strategy solution
+
+32:31.680 --> 32:41.600
+to this game. Okay, so to start with, this is what the payoff matrix looks like. So we'll say that
+
+32:42.320 --> 32:49.600
+player, we'll call the two players, players A and B and we'll say that there is player A's move
+
+32:49.920 --> 32:58.000
+is denoted on the row and player B's move is denoted on the column. And so then we see that, you know,
+
+32:58.000 --> 33:04.560
+if both players play rock, if both players get 0, 0, that's a tie. If player A plays rock and
+
+33:04.560 --> 33:10.800
+player B plays paper, paper wins, that's a minus one for player A and a plus one for player B.
+
+33:11.440 --> 33:16.640
+And so on the scissors and fire and water and these extra things that have been added to the game.
+
+33:17.600 --> 33:23.280
+But overall, just a breakdown of who wins and who loses under which combination of plays.
+
+33:24.160 --> 33:30.000
+So then the second question asks, what's a strategy or how do you propose a strategy for this game?
+
+33:30.560 --> 33:37.600
+So we'll propose a mixed strategy for A where we'll pick probabilities for playing each of the
+
+33:37.600 --> 33:46.000
+different actions. So a little R for playing rock, a little P for playing paper, a little S for
+
+33:46.000 --> 33:52.080
+playing scissors and so on. And moreover, since these are probabilities, the five of them would have
+
+33:52.080 --> 34:01.200
+to sum to one. Then the payoff for A based on B's possible options are as follows. So if player B plays
+
+34:01.200 --> 34:09.680
+rock, then player A would have a plus one if on the P chance that they play paper, which would be a
+
+34:09.680 --> 34:17.680
+win. They'd have a minus S for losing if they played scissors. They'd have a plus F for if they
+
+34:18.400 --> 34:24.400
+won with playing fire and they'd have a minus W if they lost playing water and they'd have essentially
+
+34:24.400 --> 34:33.440
+a zero if they threw rock as well. And so this is just the breakdown for each of the options of
+
+34:33.440 --> 34:40.160
+what B could play. And they say it's easy to see that no option is dominant over the whole region.
+
+34:40.160 --> 34:45.200
+So what they say is solving for the intersection of hyperplanes. Essentially, if you make these
+
+34:45.200 --> 34:50.480
+into hyperplanes and solve for their intersect, you would solve for it and you would get
+
+34:50.480 --> 34:58.000
+RPS equals 1 over 9 and F equals W equals 1 over 3. And by symmetry, if you did the same thing
+
+34:58.000 --> 35:07.600
+with B, you would get the same result. So all right. Okay. So that's I think that's the only
+
+35:07.600 --> 35:17.600
+question from problem section 17. But now I think the next couple are about neural networks. So one second.
+
+35:19.920 --> 35:24.960
+Okay. So this is a fun problem. A fairly important problem actually.
+
+35:24.960 --> 35:35.200
+It says 18.24 constructed by hand, a neural network that computes the ZOR function of two inputs.
+
+35:35.200 --> 35:41.440
+Make sure to specify what sorts of units you are using. And just for a reminder, or if you're
+
+35:41.440 --> 35:48.080
+not familiar with it, ZOR is the exclusive OR function that's basically given two inputs A and B.
+
+35:48.640 --> 35:56.320
+It will return true if and only if exactly one of A is true. Otherwise, if A and B are both true,
+
+35:56.320 --> 36:03.600
+it will return zero or return false. And if B and A are both false, it will also return false.
+
+36:04.560 --> 36:10.160
+And then another question to ask here is, is this a problem that can be solved with a single
+
+36:10.160 --> 36:15.920
+layer perceptron? Okay. You know the answer to this. Okay. So this is what the network looks like.
+
+36:18.080 --> 36:22.960
+I guess if people wanted to discuss ideas of how to make this work, because I don't know
+
+36:23.760 --> 36:30.000
+people want to, we'll just go the network and look at it. So to do this, you'll need to define
+
+36:30.800 --> 36:37.280
+some sort of threshold function. So we'll just say we have this threshold T and the T has a
+
+36:37.280 --> 36:46.000
+parameter X. And so if we have T equals X and you have an input that's a value Y or whatever,
+
+36:46.560 --> 36:54.080
+if Y is greater than X, you would return one. But if Y is less than X, you would return zero.
+
+36:54.080 --> 37:00.000
+So you have a nonlinear activation function right here in the terms in the form of a thresholding
+
+37:00.000 --> 37:07.840
+function. So then using this thresholding function, we can implement ZOR using this network.
+
+37:07.840 --> 37:15.280
+However, this is a two layer neural network. And importantly, you cannot implement ZOR with a one
+
+37:15.280 --> 37:20.720
+layer perceptron. It's impossible. And that was a very important mathematical result back in the
+
+37:20.720 --> 37:26.560
+1960s when perceptrons were first introduced, because that helped to show that single layer networks
+
+37:26.560 --> 37:32.000
+were intrinsically limited in the kinds of functions they could represent. But by adding multiple
+
+37:32.000 --> 37:38.960
+layers, you could represent more complex functions. But overall, this is what the working ZOR
+
+37:38.960 --> 37:44.880
+neural network looks like. And we can also test it to verify that it does correctly implement
+
+37:44.880 --> 37:52.640
+the ZOR function. So for example, if A and B are both zero, well, we have our neural network,
+
+37:52.640 --> 37:58.320
+and we have these weights on each of the edges. So on each of these weights, you would multiply by
+
+37:58.320 --> 38:04.400
+the weight value. But because it's all zeros, you would wind up with a zero here. And then there's
+
+38:04.400 --> 38:11.920
+a threshold here, but it would be zero. So it'd be zero here. This 0.3 times zero would be zero,
+
+38:11.920 --> 38:16.720
+zero, zero, zero, zero, zero point, negative, zero point, six times zero, zero. It's just zeros
+
+38:16.720 --> 38:22.560
+all over. And so the output is zero. So that's good. And then if you instead had one of the inputs
+
+38:22.560 --> 38:28.080
+to be one, then on this top branch, we would have one times zero point three. So you'd have a zero
+
+38:28.080 --> 38:32.720
+point three here. You have a one times zero point three here. So you have a zero point three here.
+
+38:32.720 --> 38:39.120
+And this is too small. It's less than zero point five. So it doesn't activate the threshold here.
+
+38:39.120 --> 38:45.920
+So this is a zero, a zero times negative zero point six. And in the end, you have so you have zero,
+
+38:45.920 --> 38:51.840
+zero, zero, zero point three. These three terms sum to zero point three. They're input to the
+
+38:51.840 --> 38:56.400
+this threshold now, but zero point three is high enough to beat this is your point two threshold.
+
+38:56.400 --> 39:01.680
+So we get one. So that's good. So that's one other part of the ZOR that's working correctly.
+
+39:02.480 --> 39:07.280
+And then I think it's pretty obvious that if you flip to this, if you had a equals zero,
+
+39:07.360 --> 39:10.720
+be equals one, you would get the exact same thing. I think it's pretty obvious.
+
+39:11.520 --> 39:19.360
+But the last thing to see is if you now make a and b both equal to one, will it do the ZOR thing
+
+39:19.360 --> 39:25.600
+and return zero? So in this case, you have a one times zero point three that gets passed along
+
+39:25.600 --> 39:30.720
+on the top branch. And the one times zero point three gets passed along on the top branch.
+
+39:30.720 --> 39:35.840
+But then here in the middle branch, the whole point of this extra layer here in the middle is
+
+39:36.320 --> 39:42.480
+to essentially make make the ZOR effect happen. So you have a 0.3 coming from here from one times
+
+39:42.480 --> 39:48.560
+0.3 and a one times your point three, you get a 0.6, which is enough to beat the threshold.
+
+39:49.200 --> 39:56.800
+You get a one out one times negative 0.6 gives you negative 0.6 here. So these terms now cancel out
+
+39:56.800 --> 40:01.920
+and the input to the final threshold is zero. And then the output is zero. And overall,
+
+40:02.480 --> 40:08.240
+it shows that it's a working ZOR function with a neural network. So yeah, overall,
+
+40:09.840 --> 40:15.200
+this is obviously a very simplified neural network, but it does have all of the fundamentals
+
+40:15.200 --> 40:23.040
+that even complex neural networks have, i.e. you have weights, you have inputs, you have
+
+40:23.840 --> 40:28.720
+multiplication of weights with activations, you have summations of those activations,
+
+40:29.520 --> 40:35.280
+and then you have nonlinear activation functions. So obviously, most of the time people are using
+
+40:35.280 --> 40:44.400
+Ray-Lew, you know, that function or that function. But this would be a threshold-based nonlinear
+
+40:44.400 --> 40:49.440
+activation function instead. And of course, you know, this is still a very simple neural network,
+
+40:49.440 --> 40:55.440
+but the idea it showed with this very early result from like the 1960s was that a single layer
+
+40:55.440 --> 41:00.960
+network cannot represent ZOR, but a multi layer network can. And so deeper and deeper networks
+
+41:00.960 --> 41:07.440
+can represent more and more complex functions over time. Okay. All right. Yes.
+
+41:12.080 --> 41:19.920
+Yeah, a single layer perceptron would be unable to implement the ZOR function. Yeah. Yep.
+
+41:20.720 --> 41:32.240
+So yeah. All right. Okay. Now, another sort of simple or well, maybe not that simple, but another
+
+41:32.240 --> 41:40.240
+problem related to neural networks, specifically training neural networks. So this is sort of a
+
+41:40.240 --> 41:46.080
+funny idea, but suppose you have a training set that contains only a single example repeated
+
+41:46.080 --> 41:52.160
+100 times already. This is a very bad training set. But now we're going to also make it even
+
+41:52.160 --> 41:59.600
+worse, say that 80 out of the 100 samples, you put a value of one as the label on it. And on the
+
+41:59.600 --> 42:05.760
+other 20, you put a value of zero as the label on it. So obviously, this network's not like learning
+
+42:05.760 --> 42:12.000
+any trend based on the data. It's all the outputs are totally arbitrary. But regardless of what kind
+
+42:12.000 --> 42:17.840
+of network you had, say you are optimizing this network through back propagation. And so you
+
+42:17.840 --> 42:24.320
+gradually update it and tell you reach a global optimum. What would the back propagation network
+
+42:24.320 --> 42:28.880
+eventually predict for this example, assuming that it has been trained until it reaches a global
+
+42:28.880 --> 42:34.240
+optimum. And the hint is to find the global optimum, differentiate the error function and set it
+
+42:34.240 --> 42:48.160
+to zero. So this is, it's time for some calculus, calculus. So to break it down, intuitively, the data
+
+42:48.160 --> 42:54.560
+suggests that a probabilistic prediction, probably of output equals one equals 0.8 is appropriate.
+
+42:55.360 --> 43:00.000
+And the network will adjust its weights to minimize the error function. So the error function,
+
+43:00.000 --> 43:06.480
+in this case, you're using the squared error summation, one half summation over i, the samples
+
+43:07.040 --> 43:14.720
+of yi, the ground truth, minus ai, the predicted value, a squared error. And so if you're optimizing
+
+43:14.720 --> 43:21.760
+the network to minimize this error, you would want to essentially, you would compute what the
+
+43:21.760 --> 43:29.680
+minimum of this error function is by looking for a local minimum with the calculus. But if we expand
+
+43:29.680 --> 43:37.280
+this function, we know that 80 of the samples will have yi equal to one. So we have an 80 here and
+
+43:37.280 --> 43:46.160
+we have a one here. And 20 of the samples will have yi equal to zero. So we have 20 here and zero
+
+43:46.160 --> 43:53.120
+here. And so we can do the products and we can expand this and reduce the terms. And at the end,
+
+43:53.120 --> 44:01.600
+we have a quadratic expression, 50 a1 squared minus 80 a1 plus 40. And then if you took the
+
+44:01.600 --> 44:09.760
+derivative of this with respect to a1, you would get through, you know, low bill calculus, 100 a1
+
+44:09.760 --> 44:16.640
+minus 80. And if you set this equal to zero and solve for the value of a, you would indeed find
+
+44:16.640 --> 44:26.960
+that you get a1 equals zero point eight. So, yes. I'm not sure if you'll need to know exactly
+
+44:26.960 --> 44:37.280
+this, but I don't know. I am not sure. I do not know. Sorry. I personally have not seen what
+
+44:37.280 --> 44:47.920
+the final exam looks like at this time, so I'm not sure. Again, I'm not, I'm not sure. Sorry.
+
+44:51.440 --> 45:02.080
+Okay. Well, anyway, so that finishes section 18 that just leaves the last section. We'll talk
+
+45:02.080 --> 45:08.400
+about section 22, which is on reinforcement learning. And I'll just give you a heads up that,
+
+45:09.520 --> 45:15.120
+these, a lot of these questions are more conceptual. The sample problems for this section,
+
+45:15.120 --> 45:20.960
+there weren't as many like numerical ones. So these are like more conceptual problems about RL.
+
+45:22.000 --> 45:31.120
+So this first one, 21.2, chapter 17 defined a proper policy for an MDP Markov decision process,
+
+45:31.120 --> 45:36.960
+as one that is guaranteed to reach a terminal state, show that it is possible for a passive ADP
+
+45:37.600 --> 45:44.160
+agents to learn a transition model for which its policy pie is improper, even if pie is proper
+
+45:44.160 --> 45:50.480
+for the true MDP. So as with such models, the policy evaluation step may fail if gamma equals one,
+
+45:50.480 --> 45:55.840
+show that this problem cannot arise if policy evaluation is applied to the learned model only at
+
+45:55.840 --> 46:02.560
+the end of a trial. So yeah, so this is a bit of a wordy problem, but it boils down to a proof
+
+46:02.560 --> 46:10.240
+by example, essentially. So they say, consider a world with two states, S0 and S1, with two actions
+
+46:10.240 --> 46:16.320
+in each state either state still or move to the other state. Assume the move action is non-deterministic
+
+46:16.320 --> 46:21.520
+and it may sometimes fail, leaving the agent in the same state. Furthermore, assume that the agent
+
+46:21.520 --> 46:29.120
+starts in S0 and that S1 is a terminal state, so a simple two-state world. So then if the agent
+
+46:29.120 --> 46:35.200
+tries several move actions and they all fail because of bad luck, random chance, the agent may
+
+46:35.200 --> 46:44.240
+conclude that the transition T of S0 move S1 is zero, and thus it may choose a policy where pie
+
+46:44.240 --> 46:50.880
+of S0 equals stay, which is an improper policy. And so if we instead wait until the agent reaches S1
+
+46:50.880 --> 46:58.240
+before updating the policy, we won't fall victim to this problem. So yeah, just an interesting
+
+46:58.880 --> 47:10.240
+example, I suppose. Okay, then 21.8 grid world. This question asks, devise suitable features
+
+47:10.240 --> 47:16.320
+for reinforcement learning in stochastic grid world, generalizations of the four by three world
+
+47:16.320 --> 47:22.080
+that contain multiple obstacles and multiple terminal states with rewards of plus one or minus one.
+
+47:22.720 --> 47:29.600
+So this is just, this is again an open-ended question. So it's just about proposing features that
+
+47:29.600 --> 47:40.960
+could be useful for the agent to have access to or to see. Does anyone want to propose any features
+
+47:41.040 --> 47:52.800
+that might be useful? I think there's things like what's the distance to the nearest plus one
+
+47:52.800 --> 47:57.440
+is an example. What's the distance to the nearest minus one terminal state?
+
+47:58.480 --> 48:02.560
+Things like what's the distance to the nearest obstacle or how many obstacles are nearby?
+
+48:03.440 --> 48:09.920
+Basically, this is just a, this would be like an open format question. So you could propose a lot
+
+48:09.920 --> 48:14.720
+of different options, but the examples that they gave were things like distance to the nearest
+
+48:14.720 --> 48:19.520
+plus one or minus one terminal state, number of adjacent plus one or minus one terminal states,
+
+48:20.640 --> 48:25.120
+number of adjacent obstacles, number of obstacles that intersect with a path to the nearest
+
+48:25.120 --> 48:32.960
+plus one terminal state, for example. Okay, and then the last question, this one, 21.13 evolution
+
+48:33.040 --> 48:40.160
+as RL, this is again another more conceptual problem. I'm not really sure if you would have,
+
+48:40.160 --> 48:44.240
+I don't think you would really have questions like this that are more conceptually oriented because
+
+48:44.240 --> 48:49.040
+I'm not sure how you would put it. This is a multiple-choice question, but this is just a question
+
+48:49.040 --> 48:54.640
+from the book that talked about, you know, what are the parallels between reinforcement learning
+
+48:54.640 --> 48:58.560
+and and evolution and what kind of connections exist or what kind of things are different.
+
+48:59.120 --> 49:05.040
+And so some things are like, what are the analogs between the reward signal, the learning process
+
+49:05.040 --> 49:09.520
+or the policy? You could imagine a simple animal that doesn't learn in its lifetime,
+
+49:09.520 --> 49:14.240
+and its behavior is fully determined by its genotype, which would be like the parameters of its
+
+49:14.240 --> 49:20.320
+policy, but then mutations and crossovers can create new values for the parameters,
+
+49:21.120 --> 49:25.440
+but then you'd also could imagine as a reinforcement learning process that works on many different
+
+49:25.440 --> 49:30.080
+copies of Pi simultaneously. However, a complication of this is that each copy of Pi
+
+49:30.080 --> 49:36.720
+modifies the environment for other copies, whereas RL, the environment is fixed. And then they
+
+49:36.720 --> 49:43.280
+talk about the reward function, like they say that RL maximizes the sum of rewards, whereas in
+
+49:43.280 --> 49:48.960
+biology, you're trying to maximize reproductive fitness. So in this view, evolution could be viewed
+
+49:48.960 --> 49:54.400
+as trying to find Pi that generates the most copies of itself over time, but there's more complexity
+
+49:54.400 --> 49:59.440
+to that. There's multiple genes that contribute to a genotype and influence things in different
+
+49:59.440 --> 50:05.360
+ways. There's complexity of multi-agent environments, and also maybe most important organisms learned
+
+50:05.360 --> 50:11.520
+during their lifetime. They're not just derived fully from their genotype. So overall, they say that
+
+50:11.520 --> 50:15.520
+from a philosophical perspective, one must be careful not to assume an absolute equivalence
+
+50:15.520 --> 50:20.160
+between the two, but instead view parallel similarities and differences when drawing these kinds of
+
+50:20.160 --> 50:25.360
+comparisons. So overall, that's more of a conceptual problem that they included. But
+
+50:27.360 --> 50:33.760
+with that, that was the last of the sample problems I pulled. Overall, there are more sample problems
+
+50:34.720 --> 50:41.920
+that can be found at aimacode.github.io slash aimaxercises. Yeah, are there any questions?
+
+50:50.160 --> 51:09.200
+So I will tell you that let me just double check. Bill and Sujong sent me their list of sample
+
+51:09.200 --> 51:24.400
+problems which came from sections 13, 14, 15, 16, 17, 18, and 22. Oh, oh wait. Not 22, 21. That was a
+
+51:24.400 --> 51:32.000
+typo. It should be 2021. That's the reinforcement learning section. In the aimacode, some of the numbers
+
+51:32.000 --> 51:43.280
+changed. So 22 became NLP instead of RL. So that would be 13, 14, 15, 16, 17, 18, and 21 would be all
+
+51:43.280 --> 51:50.960
+the sections. I think that would be relevant. Overall, though, I would suggest review the course
+
+51:50.960 --> 51:56.640
+slides to make sure just to verify that it matches up with the subject material that you've been
+
+51:56.640 --> 52:03.120
+learning about. But yeah, all right. Well, are there any other questions?
+
+52:04.480 --> 52:10.720
+All right. Well, in that case, I wish you all good luck. Break a leg with the final exam.
+
+52:11.680 --> 52:16.080
+That exam, I think, is about a week from today. If I'm mistaken.
+
+52:19.600 --> 52:22.800
+December 17, I think. Yes.
+
+52:27.440 --> 52:32.880
+I'm going to assume, probably, yes. If you're not, if you want, post about it on Piazza,
+
+52:32.880 --> 52:38.880
+but I'm going to assume that this exam should be basically conducted with the same format as
+
+52:38.880 --> 52:41.200
+the other two midterms, essentially. So yeah.
+
+52:47.120 --> 52:49.600
+All right. Well, in that case, thank you all for coming.
+
